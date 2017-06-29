@@ -401,13 +401,13 @@ public class GosDeploy {
 	public static Drawable setButtonBackgroundColor() {
 		GradientDrawable drawable = new GradientDrawable();
 		drawable.setShape(GradientDrawable.RECTANGLE);
-		drawable.setCornerRadius(100);
+		drawable.setCornerRadius(20);
 
 		String ButtonColor_FromMap = infoMap.get(ButtonColor_Key).toString();
 		if (!TextUtils.isEmpty(ButtonColor_FromMap)) {
 			drawable.setColor(Color.parseColor("#" + ButtonColor_FromMap));
 		} else {
-			drawable.setColor(context.getResources().getColor(R.color.yellow));
+			drawable.setColor(context.getResources().getColor(R.color.text_blue));
 		}
 
 		return drawable;
@@ -419,7 +419,7 @@ public class GosDeploy {
 	 * @return
 	 */
 	public static int setButtonTextColor() {
-		int buttonTextcolor = context.getResources().getColor(R.color.black);
+		int buttonTextcolor = context.getResources().getColor(R.color.white);
 		String ButtonTextColor_FromMap = infoMap.get(ButtonTextColor_Key).toString();
 		if (!TextUtils.isEmpty(ButtonTextColor_FromMap)) {
 			buttonTextcolor = Color.parseColor("#" + ButtonTextColor_FromMap);
@@ -437,7 +437,7 @@ public class GosDeploy {
 		GradientDrawable drawable = new GradientDrawable();
 		drawable.setShape(GradientDrawable.RECTANGLE);
 
-		int navigationBarColor = context.getResources().getColor(R.color.yellow);
+		int navigationBarColor = context.getResources().getColor(R.color.text_blue);
 
 		String NavigationBarColor_FromMap = infoMap.get(NavigationBarColor_Key).toString();
 		if (!TextUtils.isEmpty(NavigationBarColor_FromMap)) {
@@ -454,7 +454,7 @@ public class GosDeploy {
 	 * @return
 	 */
 	public static int setNavigationBarTextColor() {
-		int navigationBarTextColor = context.getResources().getColor(R.color.black);
+		int navigationBarTextColor = context.getResources().getColor(R.color.white);
 		String NavigationBarTextColor_FromMap = infoMap.get(NavigationBarTextColor_Key).toString();
 		if (!TextUtils.isEmpty(NavigationBarTextColor_FromMap)) {
 			navigationBarTextColor = Color.parseColor("#" + NavigationBarTextColor_FromMap);

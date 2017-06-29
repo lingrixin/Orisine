@@ -30,7 +30,7 @@
                 android:id="@+id/img1"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:background="@drawable/grid_grey" />
+                android:background="@drawable/ic_account_balance_white_24dp" />
 
             <TextView
                 android:id="@+id/tx1"
@@ -55,7 +55,7 @@
                 android:id="@+id/img2"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:background="@drawable/message_grey" />
+                android:background="@drawable/ic_date_range_white_24dp" />
 
             <TextView
                 android:id="@+id/tx2"
@@ -80,7 +80,7 @@
                 android:id="@+id/img3"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:background="@drawable/user_grey" />
+                android:background="@drawable/ic_perm_contact_calendar_white_24dp" />
 
             <TextView
                 android:id="@+id/tx3"

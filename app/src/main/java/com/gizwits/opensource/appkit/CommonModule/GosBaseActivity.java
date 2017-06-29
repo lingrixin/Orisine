@@ -117,7 +117,7 @@ public class GosBaseActivity extends FragmentActivity {
 		actionBar = getActionBar();// 初始化ActionBar
 		actionBar.setBackgroundDrawable(GosDeploy.setNavigationBarColor());
 		actionBar.setHomeButtonEnabled(HBE);
-		actionBar.setIcon(R.drawable.back_bt_);
+		actionBar.setIcon(R.drawable.ic_keyboard_return_white_24dp);
 		actionBar.setTitle(ssTitle);
 		actionBar.setDisplayShowHomeEnabled(DSHE);
 	}
@@ -137,7 +137,7 @@ public class GosBaseActivity extends FragmentActivity {
 		actionBar = getActionBar();// 初始化ActionBar
 		actionBar.setBackgroundDrawable(GosDeploy.setNavigationBarColor());
 		actionBar.setHomeButtonEnabled(HBE);
-		actionBar.setIcon(R.drawable.back_bt_);
+		actionBar.setIcon(R.drawable.ic_keyboard_return_white_24dp);
 		actionBar.setTitle(ssTitle);
 		actionBar.setDisplayShowHomeEnabled(DSHE);
 	}

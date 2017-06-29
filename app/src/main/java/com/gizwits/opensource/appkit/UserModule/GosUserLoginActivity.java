@@ -173,7 +173,7 @@ public class GosUserLoginActivity extends GosUserModuleBaseActivity implements O
 
 
 		// 设置actionBar
-		setActionBar(false, false, R.string.app_company);
+		setActionBar(false, false, R.string.company);
 		initView();
 		initEvent();
 	}
@@ -195,9 +195,7 @@ public class GosUserLoginActivity extends GosUserModuleBaseActivity implements O
 
 		if (isclean) {
 			etName.setText("");
-			;
 			etPsw.setText("");
-			;
 		}
 	}
 

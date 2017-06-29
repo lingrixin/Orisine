@@ -192,11 +192,11 @@ public class GosMainActivity extends GosDeviceModuleBaseActivity {
 		// t2.setBackgroundColor(getResources().getColor(R.color.white));
 		// t3.setBackgroundColor(getResources().getColor(R.color.white));
 
-		img1.setBackgroundResource(R.drawable.grid);
-		img2.setBackgroundResource(R.drawable.message_grey);
-		img3.setBackgroundResource(R.drawable.user_grey);
+		img1.setBackgroundResource(R.drawable.ic_account_balance_white_24dp);
+		img2.setBackgroundResource(R.drawable.ic_date_range_black);
+		img3.setBackgroundResource(R.drawable.ic_perm_contact_calendar_black);
 
-		tx1.setTextColor(getResources().getColor(R.color.black));
+		tx1.setTextColor(getResources().getColor(R.color.white));
 		tx2.setTextColor(getResources().getColor(R.color.gray));
 		tx3.setTextColor(getResources().getColor(R.color.gray));
 		setActionBar(false, false, R.string.devicelist_title);
@@ -436,11 +436,11 @@ public class GosMainActivity extends GosDeviceModuleBaseActivity {
 				// t2.setBackgroundColor(getResources().getColor(R.color.white));
 				// t3.setBackgroundColor(getResources().getColor(R.color.white));
 
-				img1.setBackgroundResource(R.drawable.grid);
-				img2.setBackgroundResource(R.drawable.message_grey);
-				img3.setBackgroundResource(R.drawable.user_grey);
+				img1.setBackgroundResource(R.drawable.ic_account_balance_white_24dp);
+				img2.setBackgroundResource(R.drawable.ic_date_range_black);
+				img3.setBackgroundResource(R.drawable.ic_perm_contact_calendar_black);
 
-				tx1.setTextColor(getResources().getColor(R.color.black));
+				tx1.setTextColor(getResources().getColor(R.color.white));
 				tx2.setTextColor(getResources().getColor(R.color.gray));
 				tx3.setTextColor(getResources().getColor(R.color.gray));
 				break;
@@ -450,12 +450,12 @@ public class GosMainActivity extends GosDeviceModuleBaseActivity {
 				// t2.setBackgroundColor(getResources().getColor(R.color.gray));
 				// t3.setBackgroundColor(getResources().getColor(R.color.white));
 
-				img1.setBackgroundResource(R.drawable.grid_grey);
-				img2.setBackgroundResource(R.drawable.message);
-				img3.setBackgroundResource(R.drawable.user_grey);
+				img1.setBackgroundResource(R.drawable.ic_account_balance_black);
+				img2.setBackgroundResource(R.drawable.ic_date_range_white_24dp);
+				img3.setBackgroundResource(R.drawable.ic_perm_contact_calendar_black);
 
 				tx1.setTextColor(getResources().getColor(R.color.gray));
-				tx2.setTextColor(getResources().getColor(R.color.black));
+				tx2.setTextColor(getResources().getColor(R.color.white));
 				tx3.setTextColor(getResources().getColor(R.color.gray));
 				break;
 
@@ -464,13 +464,13 @@ public class GosMainActivity extends GosDeviceModuleBaseActivity {
 				// t2.setBackgroundColor(getResources().getColor(R.color.white));
 				// t3.setBackgroundColor(getResources().getColor(R.color.gray));
 
-				img1.setBackgroundResource(R.drawable.grid_grey);
-				img2.setBackgroundResource(R.drawable.message_grey);
-				img3.setBackgroundResource(R.drawable.user);
+				img1.setBackgroundResource(R.drawable.ic_account_balance_black);
+				img2.setBackgroundResource(R.drawable.ic_date_range_black);
+				img3.setBackgroundResource(R.drawable.ic_perm_contact_calendar_white_24dp);
 
 				tx1.setTextColor(getResources().getColor(R.color.gray));
 				tx2.setTextColor(getResources().getColor(R.color.gray));
-				tx3.setTextColor(getResources().getColor(R.color.black));
+				tx3.setTextColor(getResources().getColor(R.color.white));
 				break;
 
 			default:
