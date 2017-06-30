@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">orisine</string>
+    <string name="app_name">ZebraBook</string>
 
     <!-- 用户模块 -->
 
 
     <!-- UserLoginActivity -->
     <string name="app_company">Gizwits Account Login</string>
+    <string name="company">ZebraBook Login</string>
     <string name="name_hint">Phone number</string>
     <string name="password_hint">Password</string>
     <string name="name_digits">0123456789</string>

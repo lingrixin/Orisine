@@ -51,7 +51,7 @@
             android:paddingRight="10dp"
             android:paddingTop="5dp"
             android:text="@string/getcode"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="12sp" />
     </LinearLayout>
 

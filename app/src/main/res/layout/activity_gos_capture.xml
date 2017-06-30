@@ -106,7 +106,7 @@
             android:paddingRight="5dp"
             android:paddingBottom="5dp"
             android:paddingTop="15dp"
-            android:src="@drawable/button_back" />
+            android:src="@drawable/ic_keyboard_return_white_24dp" />
 
         <TextView
             android:id="@+id/textView1"
@@ -116,7 +116,7 @@
             android:layout_centerHorizontal="true"
             android:text="@string/scan"
             android:textSize="14sp"
-            android:textColor="@color/yellow" />
+            android:textColor="@color/white" />
 
     </RelativeLayout>
 

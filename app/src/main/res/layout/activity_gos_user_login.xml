@@ -98,7 +98,6 @@
         android:layout_below="@+id/linearLayout2"
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
-        android:visibility="invisible"
         android:text="@string/forget_password"
         android:textColor="@color/black" />
 
@@ -110,7 +109,6 @@
         android:layout_below="@+id/linearLayout2"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
-        android:visibility="invisible"
         android:text="@string/register"
         android:textColor="@color/black" />
 
